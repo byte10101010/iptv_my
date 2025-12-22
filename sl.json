@@ -1,0 +1,73 @@
+{
+  "StreamFlex_A_updated_at": "2025-12-22T00:00:00Z",
+  "StreamFlex_SL_total_channels": 7,
+  "total_categories": 2,
+  "categories": {
+    "News": {
+      "count": 5,
+      "channels": []
+    },
+    "Entertainment": {
+      "count": 2,
+      "channels": []
+    }
+  },
+  "all_channels": [
+    {
+      "name": "ABC News Live",
+      "tvg_id": "ABCNews",
+      "tvg_name": "ABC News",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mQvC7v7W6V3d3d3d3d3d3d3d3d3d3d3d3d=128s",
+      "group": "News",
+      "url": "https://www.youtube.com/@ABCNews/live"
+    },
+    {
+      "name": "Al Jazeera English",
+      "tvg_id": "AlJazeeraEnglish",
+      "tvg_name": "Al Jazeera",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_k1234567890abcdef=128s",
+      "group": "News",
+      "url": "https://www.youtube.com/@aljazeeraenglish/live"
+    },
+    {
+      "name": "BBC News Live",
+      "tvg_id": "BBCNews",
+      "tvg_name": "BBC News",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lmnopqrstuv=128s",
+      "group": "News",
+      "url": "https://www.youtube.com/@BBCNews/live"
+    },
+    {
+      "name": "CNN Live",
+      "tvg_id": "CNN",
+      "tvg_name": "CNN",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_wxyz123456=128s",
+      "group": "News",
+      "url": "https://www.youtube.com/@CNN/live"
+    },
+    {
+      "name": "Sky News",
+      "tvg_id": "SkyNews",
+      "tvg_name": "Sky News",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_abcdef7890=128s",
+      "group": "News",
+      "url": "https://www.youtube.com/@SkyNews/live"
+    },
+    {
+      "name": "Your Existing Channel 1 (e.g., ESPN)",
+      "tvg_id": "ESPN",
+      "tvg_name": "ESPN",
+      "logo": "https://example.com/espn-logo.png",
+      "group": "Entertainment",
+      "url": "http://your-existing-m3u-url-here.com/stream.m3u8"
+    },
+    {
+      "name": "Your Existing Channel 2 (e.g., HBO)",
+      "tvg_id": "HBO",
+      "tvg_name": "HBO",
+      "logo": "https://example.com/hbo-logo.png",
+      "group": "Entertainment",
+      "url": "http://another-existing-url.com/live"
+    }
+  ]
+}
