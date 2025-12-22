@@ -1,80 +1,34 @@
 {
-  "StreamFlex_A_updated_at": "2025-12-22T00:00:00Z",
-  "StreamFlex_SL_total_channels": 7,
+  "StreamFlex_A_updated_at": "2025-12-22T07:11:00Z",
+  "StreamFlex_SL_total_channels": 2,
   "total_categories": 2,
   "categories": {
     "News": {
-      "count": 5,
+      "count": 1,
       "channels": []
     },
     "Entertainment": {
-      "count": 2,
+      "count": 1,
       "channels": []
     }
   },
   "all_channels": [
     {
-      "name": "ABC News Live",
-      "tvg_id": "ABCNews",
-      "tvg_name": "ABC News",
-      "logo": "https://yt3.ggpht.com/ytc/AIdro_mQvC7v7W6V3d3d3d3d3d3d3d3d3d3d3d3d=128s",
+      "name": "TV9 Telugu News LIVE",
+      "tvg_id": "TV9Telugu",
+      "tvg_name": "TV9 Telugu",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo",
       "group": "News",
-      "url": "https://www.youtube.com/@ABCNews/live"
+      "url": "https://www.youtube.com/@Tv9Telugu/live"
     },
     {
-      "name": "Al Jazeera English",
-      "tvg_id": "AlJazeeraEnglish",
-      "tvg_name": "Al Jazeera",
-      "logo": "https://yt3.ggpht.com/ytc/AIdro_k1234567890abcdef=128s",
-      "group": "News",
-      "url": "https://www.youtube.com/@aljazeeraenglish/live"
-    },
-    {
-      "name": "BBC News Live",
-      "tvg_id": "BBCNews",
-      "tvg_name": "BBC News",
-      "logo": "https://yt3.ggpht.com/ytc/AIdro_lmnopqrstuv=128s",
-      "group": "News",
-      "url": "https://www.youtube.com/@BBCNews/live"
-    },
-    {
-      "name": "CNN Live",
-      "tvg_id": "CNN",
-      "tvg_name": "CNN",
-      "logo": "https://yt3.ggpht.com/ytc/AIdro_wxyz123456=128s",
-      "group": "News",
-      "url": "https://www.youtube.com/@CNN/live"
-    },
-    {
-      "name": "Sky News",
-      "tvg_id": "SkyNews",
-      "tvg_name": "Sky News",
-      "logo": "https://yt3.ggpht.com/ytc/AIdro_abcdef7890=128s",
-      "group": "News",
-      "url": "https://www.youtube.com/@SkyNews/live"
-    },
-    {
-      "name": "Your Existing Channel 1 (e.g., ESPN)",
-      "tvg_id": "ESPN",
-      "tvg_name": "ESPN",
-      "logo": "https://example.com/espn-logo.png",
+      "name": "SET HD",
+      "tvg_id": "1000009246",
+      "tvg_name": "",
+      "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png",
       "group": "Entertainment",
-      "url": "http://your-existing-m3u-url-here.com/stream.m3u8"
-    },
-    {
-      "name": "Your Existing Channel 2 (e.g., HBO)",
-      "tvg_id": "HBO",
-      "tvg_name": "HBO",
-      "logo": "https://example.com/hbo-logo.png",
-      "group": "Entertainment",
-      "url": "http://another-existing-url.com/live"
-    },
-	{
-			"name": "TV9 Telugu News LIVE",
-			"tvg_id": "TV9Telugu",
-			"tvg_name": "TV9 Telugu",
-			"logo": "https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo",  			"group": "News",
-			"url": "https://www.youtube.com/@Tv9Telugu/live"
-	}
+      "url": "https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1766415725~acl=/*~id=47594644234814954102176797860025~hmac=625d8d575723a33c7cc52ab562620d65523eb63854ff3062b09b0e825934f424"
+    }
   ]
 }
+
