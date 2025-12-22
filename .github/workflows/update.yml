@@ -24,9 +24,10 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
       - name: Commit and push changes
+        permissions: contents: write  # Add at job level if missing
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git remote set-url origin https://x-access-token:$$ {{ secrets.GITHUB_TOKEN }}@github.com/ $${{ github.repository }}.git
-          git add myplaylist.m3u sl.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
+           git config --local user.email "action@github.com"
+           git config --local user.name "GitHub Action"
+           git add myplaylist.m3u sl.json
+           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
+
