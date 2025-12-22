@@ -12,6 +12,8 @@ on:
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required for git commit/push
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,10 +26,9 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
       - name: Commit and push changes
-        permissions: contents: write  # Add at job level if missing
         run: |
-           git config --local user.email "action@github.com"
-           git config --local user.name "GitHub Action"
-           git add myplaylist.m3u sl.json
-           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add myplaylist.m3u sl.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
 
