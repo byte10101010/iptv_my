@@ -1,0 +1,39 @@
+#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
+# ===============================
+#  Your Custom IPTV Playlist
+#  News + Custom Channels
+#  Auto-Updated via GitHub
+# ===============================
+
+# ========== News ==========
+#EXTINF:-1 tvg-id="ABCNews" tvg-name="ABC News" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_mQvC7v7W6V3d3d3d3d3d3d3d3d3d3d3d3d=128s" group-title="News",ABC News Live
+https://www.youtube.com/@ABCNews/live
+
+#EXTINF:-1 tvg-id="AlJazeeraEnglish" tvg-name="Al Jazeera" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_k1234567890abcdef=128s" group-title="News",Al Jazeera English
+https://www.youtube.com/@aljazeeraenglish/live
+
+#EXTINF:-1 tvg-id="BBCNews" tvg-name="BBC News" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_lmnopqrstuv=128s" group-title="News",BBC News Live
+https://www.youtube.com/@BBCNews/live
+
+#EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_wxyz123456=128s" group-title="News",CNN Live
+https://www.youtube.com/@CNN/live
+
+#EXTINF:-1 tvg-id="SkyNews" tvg-name="Sky News" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_abcdef7890=128s" group-title="News",Sky News
+https://www.youtube.com/@SkyNews/live
+
+#EXTINF:-1 tvg-id="TV9Telugu" tvg-name="TV9 Telugu" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu News LIVE
+https://www.youtube.com/@Tv9Telugu/live
+
+
+# ========== Entertainment ==========
+#EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://example.com/espn-logo.png" group-title="Entertainment",Your Existing Channel 1 (e.g., ESPN)
+http://your-existing-m3u-url-here.com/stream.m3u8
+
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://example.com/hbo-logo.png" group-title="Entertainment",Your Existing Channel 2 (e.g., HBO)
+http://another-existing-url.com/live
+
+
+# =====================================
+# Generated: 2025-12-22 07:30:44 UTC
+# Edit sl.json to add channels
+# =====================================

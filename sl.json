@@ -1,6 +1,6 @@
 {
-  "StreamFlex_A_updated_at": "2025-12-22T00:00:00Z",
-  "StreamFlex_SL_total_channels": 7,
+  "StreamFlex_A_updated_at": "2025-12-22T07:30:44.048323Z",
+  "StreamFlex_SL_total_channels": 8,
   "total_categories": 2,
   "categories": {
     "News": {
@@ -69,12 +69,13 @@
       "group": "Entertainment",
       "url": "http://another-existing-url.com/live"
     },
-	{
-			"name": "TV9 Telugu News LIVE",
-			"tvg_id": "TV9Telugu",
-			"tvg_name": "TV9 Telugu",
-			"logo": "https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo",  			"group": "News",
-			"url": "https://www.youtube.com/@Tv9Telugu/live"
-	}
+    {
+      "name": "TV9 Telugu News LIVE",
+      "tvg_id": "TV9Telugu",
+      "tvg_name": "TV9 Telugu",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "News",
+      "url": "https://www.youtube.com/@Tv9Telugu/live"
+    }
   ]
 }
