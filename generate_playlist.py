@@ -12,12 +12,14 @@ def get_video_id(url):
     elif 'youtu.be/' in url:
         return url.split('youtu.be/')[1].split('?')[0]
     elif 'live/' in url:
-        return url.split('live/')[1].split('?')[0]
+        try:
+            return url.split('live/')[1].split('?')[0]
+        except IndexError:
+            return None
     return None
 
 def get_hls_link(video_id):
     # List of public Piped instances (APIs)
-    # These act as proxies to get the .m3u8 link for you
     instances = [
         "https://pipedapi.kavin.rocks",
         "https://api.piped.privacy.com.de",
@@ -29,7 +31,6 @@ def get_hls_link(video_id):
     for instance in instances:
         try:
             print(f"    Trying {instance}...")
-            # Piped API to get stream info
             resp = requests.get(f"{instance}/streams/{video_id}", timeout=5)
             if resp.status_code == 200:
                 data = resp.json()
@@ -41,7 +42,6 @@ def get_hls_link(video_id):
     return None
 
 def get_stream_url(url, channel_name):
-    # If not YouTube, return as-is (e.g., your SET HD link)
     if 'youtube.com' not in url and 'youtu.be' not in url:
         return url
 
@@ -49,9 +49,7 @@ def get_stream_url(url, channel_name):
     video_id = get_video_id(url)
     
     if not video_id:
-        # If it's a channel URL like @Tv9Telugu/live, we can't easily get ID without yt-dlp.
-        # But for your specific case (II_m28Bm-iM), we have the ID.
-        print("  -> Could not extract video ID from URL")
+        print("  -> Could not extract video ID")
         return url
 
     hls_url = get_hls_link(video_id)
@@ -61,23 +59,26 @@ def get_stream_url(url, channel_name):
         return hls_url
     else:
         print("  -> Failed to get HLS from public APIs")
-        return url # Fallback (might not work in player, but better than nothing)
+        return url
 
 def create_m3u(data):
     channels = data.get('all_channels', [])
     m3u = '#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"\n'
     
+    # Corrected dictionary initialization
     categories = {}
+    
     for c in channels:
         cat = c.get('group', 'Other')
-        if cat not in cats: cats[cat] = []
+        if cat not in categories: 
+            categories[cat] = []
         
         final_url = get_stream_url(c['url'], c['name'])
-        cats[cat].append({**c, 'url': final_url})
+        categories[cat].append({**c, 'url': final_url})
 
-    for cat in cats:
+    for cat in categories:
         m3u += f'# ================= {cat} =================\n'
-        for c in cats[cat]:
+        for c in categories[cat]:
             m3u += f'#EXTINF:-1 tvg-id="{c.get("tvg_id","")}" tvg-logo="{c.get("logo","")}" group-title="{cat}",{c["name"]}\n'
             m3u += f'{c["url"]}\n\n'
             
