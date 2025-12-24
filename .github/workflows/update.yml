@@ -1,37 +1,33 @@
 name: Update Playlist
-
 on:
   push:
     paths:
-      - 'sl.json'      # Trigger only on changes to sl.json
-      - 'generate_playlist.py'  # Or if you edit the script
+      - 'sl.json'
+      - 'generate_playlist.py'
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC (for backups)
-  workflow_dispatch:  # Manual trigger
+    - cron: '0 */2 * * *'  # Every 2 hours (adjust: */1=hourly, */4=4hrs)
+  workflow_dispatch:
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Required for git commit/push
+      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-      - name: Install yt-dlp  # NEW: Fixes ModuleNotFoundError
+      - name: Install yt-dlp
         run: pip install yt-dlp
       - name: Generate playlist
         run: python generate_playlist.py
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add myplaylist.m3u
+          git add myplaylist.m3u sl.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
-
 
