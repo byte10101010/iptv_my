@@ -1,92 +1,66 @@
 import json
-import requests
-import os
-import sys
+import yt_dlp
 
-# Force unbuffered output for GitHub logs
-sys.stdout.reconfigure(encoding='utf-8')
+# Configuration
+SOURCE_FILE = 'sl.json'
+OUTPUT_FILE = 'iptv_my.m3u'
 
-def load_json(filename):
-    if not os.path.exists(filename):
-        print(f"ERROR: {filename} not found in {os.getcwd()}")
-        return {'all_channels': []}
-    with open(filename, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def get_hls_link(video_id):
-    instances = [
-        "https://pipedapi.kavin.rocks",
-        "https://api.piped.privacy.com.de",
-        "https://pipedapi.drgns.space",
-        "https://api.piped.projectsegfau.lt"
-    ]
-    for instance in instances:
+def get_real_stream_url(url):
+    """
+    If the URL is a YouTube link, extract the .m3u8 stream.
+    Otherwise, return the URL as is.
+    """
+    if "youtube.com" in url or "youtu.be" in url:
+        ydl_opts = {
+            'quiet': True,
+            'format': 'best', # Selects best quality stream
+            'noplaylist': True,
+        }
         try:
-            print(f"    Trying {instance}...")
-            resp = requests.get(f"{instance}/streams/{video_id}", timeout=5)
-            if resp.status_code == 200:
-                data = resp.json()
-                if 'hls' in data and data['hls']:
-                    return data['hls']
-        except Exception:
-            continue
-    return None
-
-def get_stream_url(url, channel_name):
-    if 'youtube.com' not in url and 'youtu.be' not in url:
-        return url
-        
-    print(f"Processing: {channel_name}")
-    # Extract ID
-    vid = None
-    if 'v=' in url: vid = url.split('v=')[1].split('&')[0]
-    elif 'youtu.be/' in url: vid = url.split('youtu.be/')[1].split('?')[0]
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(url, download=False)
+                # Return the direct m3u8 url
+                return info.get('url', url)
+        except Exception as e:
+            print(f"Failed to extract YouTube stream for {url}: {e}")
+            return None # Return None if extraction fails (stream might be offline)
     
-    if vid:
-        hls = get_hls_link(vid)
-        if hls:
-            print(f"  -> Success: {hls[:40]}...")
-            return hls
-            
-    print(f"  -> Fallback to raw URL")
-    return url
+    return url # Return original URL if not YouTube
 
-def create_m3u(data):
-    channels = data.get('all_channels', [])
-    # Header
-    content = '#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"\n'
-    
-    categories = {}
-    for c in channels:
-        cat = c.get('group', 'Other')
-        if cat not in categories: categories[cat] = []
-        
-        final_url = get_stream_url(c['url'], c['name'])
-        categories[cat].append({**c, 'url': final_url})
+def json_to_m3u():
+    try:
+        with open(SOURCE_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-    for cat in categories:
-        content += f'# ================= {cat} =================\n'
-        for c in categories[cat]:
-            content += f'#EXTINF:-1 tvg-id="{c.get("tvg_id","")}" tvg-logo="{c.get("logo","")}" group-title="{cat}",{c["name"]}\n'
-            content += f'{c["url"]}\n\n'
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            f.write('#EXTM3U\n') 
+
+            channels = data.get('all_channels', [])
             
-    return content
+            for channel in channels:
+                name = channel.get('name', 'Unknown')
+                original_url = channel.get('url', '')
+                logo = channel.get('logo', '')
+                group = channel.get('group', 'Uncategorized')
+                tvg_id = channel.get('tvg_id', '')
+                tvg_name = channel.get('tvg_name', '')
+
+                if original_url:
+                    print(f"Processing: {name}...")
+                    
+                    # fetch the dynamic link
+                    stream_url = get_real_stream_url(original_url)
+
+                    # Only write if we got a valid link back
+                    if stream_url:
+                        f.write(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="{group}",{name}\n')
+                        f.write(f'{stream_url}\n')
+
+        print(f"Success: Updated playlist saved to {OUTPUT_FILE}")
+
+    except Exception as e:
+        print(f"Critical Error: {e}")
+        exit(1)
 
 if __name__ == "__main__":
-    print(f"Current Directory: {os.getcwd()}")
-    data = load_json('sl.json')
-    m3u_content = create_m3u(data)
-    
-    # Print content size to verify
-    print(f"Generated Content Size: {len(m3u_content)} bytes")
-    
-    output_file = 'myplaylist.m3u'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(m3u_content)
-        f.flush()
-        os.fsync(f.fileno())
-        
-    if os.path.exists(output_file):
-        print(f"SUCCESS: {output_file} written ({os.path.getsize(output_file)} bytes).")
-    else:
-        print(f"FAILURE: {output_file} was NOT written.")
+    json_to_m3u()
