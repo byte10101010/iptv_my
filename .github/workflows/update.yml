@@ -1,33 +1,41 @@
-name: Update Playlist
+name: Update M3U from JSON
+
 on:
   push:
     paths:
       - 'sl.json'
-      - 'generate_playlist.py'
+      - 'convert.py'
   schedule:
-    - cron: '0 */2 * * *'  # Every 2 hours (adjust: */1=hourly, */4=4hrs)
+    - cron: '0 */4 * * *'  # Runs every 4 hours automatically
   workflow_dispatch:
 
-jobs:
-  update-playlist:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-      - name: Install yt-dlp
-        run: pip install yt-dlp requests
-      - name: Generate playlist
-        run: python generate_playlist.py
-      - name: Commit and push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add myplaylist.m3u sl.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist - $(date '+%Y-%m-%d %H:%M:%S UTC')" && git push)
+permissions:
+  contents: write
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install yt-dlp
+
+      - name: Run Conversion Script
+        run: python convert.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add iptv_my.m3u
+          # Commit only if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update YouTube links" && git push)
