@@ -1,13 +1,9 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
 # ===============================
 #  Your Custom IPTV Playlist
-#  News + Custom Channels
-#  Auto-Updated via GitHub
+#  News + Custom Channels (Auto-Updated)
 # ===============================
-# ========== News ==========
-#EXTINF:-1 tvg-id="TV9Telugu" tvg-name="TV9 Telugu" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu News LIVE
-https://www.youtube.com/watch?v=II_m28Bm-iM
-
+# ========== News (30) ==========
 #EXTINF:-1 tvg-id="NTVTelugu" tvg-name="NTV Telugu" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_mRGOKibahsYRFGyVvIlwWZBEhpAhD2zkHZpydpLgjhPRA=s48-c-k-c0x00ffffff-no-rj" group-title="News",NTV News LIVE
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766414123/ei/ywJJabunNYnqpt8PwYHZ2Qs/ip/223.185.47.132/id/L0RktSIM980.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/ssa/1/bui/AYUSA3ANztHgQ_Jn5U0nCavVG_nioo0RoZOqOVSR6ol4QId-9xdBuf20Oz44nzNyKxggJ-QJeqV-GSvC/spc/wH4Qq85tlosWQEgWWSMDzi0xKaNyiZOJvGY13_Cdiw2758hCEJWG/vprv/1/go/1/ns/wrUtD4EwEMushigX6udS1hkR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565115%2C51565681%2C51580968/dover/11/n/DGQyUEFVgvjYkcGd0N/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cssa%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAKfI1Pro4EhatYIKW8JWcbojKFSmkAPxxcaggVZfIYPCAiEAjnxdh9_bXdr1Cr7WP9vzdyysYDgpHlldhla6W6NoTYA%3D/file/index.m3u8
 
@@ -99,7 +95,7 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766425873/ei/s
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766426072/ei/eDFJaZf0KrHW4t4P-qXl2AY/ip/223.185.47.132/id/LuKwFajn37U.12/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3D8fvi9UlNmFOQomdXvNt3B8KaPS0EfM97l8WMHZevLIM5e5TanYmEK1iR0rdk7GAI51Q/spc/wH4Qq-q-dKXYOPqwHO7go7a7k9Ekrq1GS1jPDqInLo6pUzwrYyA6XJHc2kWC_F0/vprv/1/go/1/ns/g7Hw5HjXStg-xyvsB3qSG4UR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/hi3dlQk4OO5CgQcenM/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgNUfBw5Mus5X0rh4xo9hrbMnA1fVWB9AL06jg5Zi5RcECIQDWZw6ZigpKwtk35GI77MTmOpG38A-cnkQF06q7amkP9w%3D%3D/file/index.m3u8
 
 
-# ========== Business_News ==========
+# ========== Business_News (3) ==========
 #EXTINF:-1 tvg-id="CNBC TV18 LIVE" tvg-name="CNBC TV18 LIVE" tvg-logo="https://yt3.ggpht.com/t1EmuG86KC1DEBn4NqpqK1iHld2rjW89d0FjClNMoUtFOSNLTSym1UMXhC1WFXJ_Zi-T-DVezA=s48-c-k-c0x00ffffff-no-rj" group-title="Business_News",CNBC TV18 LIVE
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420615/ei/JxxJaezRLuiEpt8P4vztiQU/ip/223.185.47.132/id/P857H4ej-MQ.10/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/gcr/in/hightc/yes/siu/1/bui/AYUSA3C12FjU1ety4rzna_WsSdMGg1GwntWrDRHPex0Drtxd55F401beqnlvR6HJslwlgpKGxA/spc/wH4Qq_I-5UiUfpKcJWeXXnJAtWajUBdV0QVtlLWiio_BdYdziTBaqRTDSNK0-Ho/vprv/1/go/1/ns/cIVx99ak5jkiFHCn7so03YsR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/mO3uRitII-dyAZZw8a/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgBJ7yklWZV0QgiWDvUnkq121wXMKsOyUvuWLjHSV8HGYCIQCe1AfMw58lT80S1ZCjJCv2lV3ffaKt6qGL4Hg61eLUeg%3D%3D/file/index.m3u8
 
@@ -110,17 +106,17 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421164/ei/T
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766424084/ei/tClJabmlEr2OssUP6KTboAs/ip/223.185.47.132/id/hZpvudz_oOw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3ClljarwqDjI1An5jRuXT1zodbmzNZcwtJkypMb-JsfJHBCFPae6AvI3nWI-tsef6lxOA/spc/wH4Qq2AKXjGU-SDXfhD9-CV39IdE2ywP1o0M-pSCKupkSf3SOKQTpYKl2mtESss/vprv/1/go/1/ns/W07p53ngMrrQ_HFoZ_q-_QIR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/xSgFFz_rPgMmXX2Z4J/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAISdZ54ISgznO6OpPbODVgteNh5kArbZTb3muKZ17LuZAiAXTfrHvmm0jSBGGujvvuXKOUkee8tDp6tsaUqJv7d9eg%3D%3D/file/index.m3u8
 
 
-# ========== Entertainment ==========
+# ========== Entertainment (1) ==========
 #EXTINF:-1 tvg-id="1000009246" tvg-name="" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png" group-title="Entertainment",SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1766415725~acl=/*~id=47594644234814954102176797860025~hmac=625d8d575723a33c7cc52ab562620d65523eb63854ff3062b09b0e825934f424
 
 
-# ========== Geo ==========
+# ========== Geo (1) ==========
 #EXTINF:-1 tvg-id="High-Definition Views from the International Space Station" tvg-name="" tvg-logo="https://yt3.ggpht.com/eIf5fNPcIcj9ig-wZBeq4stFy1lgjWTW1nLT5dYlFkHZprZ03QBiMcbpwNMB6XSBjrSFGtAGQg=s48-c-k-c0x00ffffff-no-rj" group-title="Geo",High-Definition Views from the International Space Station
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766426200/ei/-DFJacDuHZL9juMPqeq4oQM/ip/223.185.47.132/id/Hj1XwNjvkDE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3CzLGZxhJIZgbies_F1BTBm-1CqD8_uVxrj5uQp9tf3eAAIylO0cF05_dM4KZukwaseyA/spc/wH4QqwdmTfVRX2MOFterlDNJBaQpYrL3ZO9RGzi7p8tL8FuQzfPiK7RIEnm8D1c/vprv/1/go/1/ns/j46RRJmJBPJdNSd5Jc65CbkR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/RsVxHqT1x3c1w2xxqY/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAL2zjPV2PmwDyUjzaFTUnZFV1OdvpD-GxhJLdt5EBSjtAiEA14Av0RwZPFE31i3EcTFxH-gRCAtGqSdXAIC0MxNZJDE%3D/file/index.m3u8
 
 
-# ========== Music ==========
+# ========== Music (3) ==========
 #EXTINF:-1 tvg-id="YRF Music" tvg-name="" tvg-logo="https://yt3.ggpht.com/nf15u1K12VXgBLh5HTf0asDF5Fc36RsUICRi8xY1Cs0QhAL_jmtW07wAUdRzrYDBKwv_KIa09Q=s48-c-k-c0x00ffffff-no-rj" group-title="Music",YRF Music
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422573/ei/zSNJaf7EAsrJssUP6_m_mAs/ip/223.185.47.132/id/yvWggAG_x1I.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3CNOMu9rs49UpDQsCbb0KG23-nElKtw-sN-LK-e2MQBwxi2xcUurgz6JRNKFedME2pvog/spc/wH4QqxeUccw4M4Ok-t5leDM4sPHgg9b0ikueuvAun_6_puBqa3PNOFk-NTxc5l4/vprv/1/go/1/ns/Z2L_du9TEoLwwslNsDfavXUR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/4ks0H0XA00CtiIxJ4O/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgAxL_KQ-b3ydyS4g5bAlLAyP4uJ1YNWC9Vl2nZo3C0PcCICLDThZ4uIDYfQkHjc1zeE0jMoTG77qY-OZzAiGcNJtq/file/index.m3u8
 
@@ -132,6 +128,7 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422777/ei/m
 
 
 # =====================================
-# Generated: 2025-12-24 05:14:58 UTC
-# Edit sl.json to add channels
+# Generated: 2025-12-24 05:17:29 UTC
+# 38 live channels
+# Edit sl.json → Auto-updates every 2hrs
 # =====================================
