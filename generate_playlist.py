@@ -1,5 +1,5 @@
 import json
-import yt_dlp
+import requests
 from collections import defaultdict
 
 def load_json(filename):
@@ -8,46 +8,51 @@ def load_json(filename):
 
 def get_stream_url(url, channel_name):
     """
-    Try to get HLS. If fail, return the original URL so it at least appears in the playlist.
+    1. Try Piped API to get HLS (bypasses local IP blocks).
+    2. Fallback to raw URL.
     """
     # If not YouTube, return as is
     if 'youtube.com' not in url and 'youtu.be' not in url:
         return url
 
-    print(f"Extracting: {channel_name} ({url})")
-    ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'format': 'best',
-        'live_from_start': True
-    }
+    print(f"Processing: {channel_name}")
     
-    try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-            hls_url = info.get('url')
+    # Extract Video ID
+    video_id = None
+    if 'v=' in url:
+        video_id = url.split('v=')[1].split('&')[0]
+    elif 'youtu.be/' in url:
+        video_id = url.split('youtu.be/')[1].split('?')[0]
+    
+    if video_id:
+        # Try Piped API (Public instance)
+        try:
+            print(f"  -> Querying Piped API for ID: {video_id}")
+            api_url = f"https://pipedapi.kavin.rocks/streams/{video_id}"
+            response = requests.get(api_url, timeout=10)
+            data = response.json()
+            
+            # Find HLS stream
+            hls_url = data.get('hls')
             if hls_url:
-                print(f"  -> Found HLS: {hls_url[:50]}...")
+                print(f"  -> Success (Piped): {hls_url[:60]}...")
                 return hls_url
-    except Exception as e:
-        print(f"  -> Extraction failed: {e}")
-    
-    # FALLBACK: Return the original YouTube URL instead of None
-    # This ensures the channel is listed in M3U. 
-    # Some players (TiviMate, VLC) can play raw YT links.
+        except Exception as e:
+            print(f"  -> Piped API failed: {e}")
+
+    # FALLBACK: Return raw URL
     print(f"  -> Fallback: Using raw YouTube URL")
     return url
 
 def create_m3u(data):
     channels = data.get('all_channels', [])
     m3u_content = '#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"\n'
+    m3u_content += '# Auto-generated playlist (Piped API method)\n\n'
     
     categories = defaultdict(list)
     
     for channel in channels:
-        # ALWAYS returns a URL (HLS or Raw), never None
         final_url = get_stream_url(channel.get('url'), channel.get('name'))
-        
         categories[channel.get('group', 'Other')].append({
             'name': channel['name'],
             'url': final_url,
@@ -69,7 +74,7 @@ def main():
     m3u = create_m3u(data)
     with open('myplaylist.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u)
-    print("Done! M3U generated.")
+    print("Done!")
 
 if __name__ == "__main__":
     main()
