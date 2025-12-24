@@ -9,79 +9,74 @@ def load_json(filename):
         data = json.load(f)
     return data
 
-def get_stream_url(url):
-    """Extract live HLS URL: max res for YT, direct otherwise"""
+def get_hlsmanifest_url(url):
+    """Extract YouTube HLS MANIFEST URL specifically (max res)"""
     if 'youtube.com' in url or 'youtu.be' in url:
         ydl_opts = {
             'quiet': True,
             'no_warnings': True,
-            'format': 'hls-1080p+,hls-1440p+,hls-2160p+/bestvideo[height>=1080][vcodec^=avc1]+bestaudio/best[height>=1080]',  # Max res HLS/1080p+
+            'format': '(hls-2160p+,hls-1440p+,hls-1080p+,hls-720p+)/best',  # HLS variants priority
             'live_from_start': True,
-            'match_filter': lambda info: info.get('is_live')  # Live only
+            'match_filter': lambda info: info.get('is_live'),  # Live only
+            'hls_use_mpegts': False  # Prefer raw HLS manifest
         }
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
-                if info.get('is_live') and info.get('url'):
-                    print(f"✓ Extracted live HLS for {url}")
-                    return info['url']  # Fresh manifest (no expire issues)
-            print(f"✗ No live stream at {url} (offline/VOD?)")
+                if info.get('is_live'):
+                    # Get the HLS manifest URL specifically
+                    hls_url = info.get('url') or info.get('hls_url') or url
+                    if 'manifest.googlevideo.com/api/manifest/hls_variant' in hls_url:
+                        print(f"✓ HLS Manifest extracted: {hls_url[:100]}...")
+                        return hls_url
+            print(f"✗ No HLS manifest at {url}")
             return None
         except Exception as e:
-            print(f"✗ YT extraction failed {url}: {e}")
+            print(f"✗ HLS extraction failed {url}: {e}")
             return None
-    return url  # Direct HLS/M3U8
+    return url  # Direct HLS
 
 def create_m3u(data):
-    """Generate M3U from channels with categories"""
+    """Generate M3U with HLS manifests"""
     channels = data.get('all_channels', [])
-    # Header
     m3u_content = '''#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
 # ===============================
-#  Your Custom IPTV Playlist
-#  News + Custom Channels (Auto-Updated)
+#  IPTV HLS Manifest Playlist
+#  Auto-Updated Every 2 Hours
 # ===============================
 '''
     
-    # Group by category + extract streams
     categories = defaultdict(list)
     valid_channels = 0
     
     for channel in channels:
         category = channel.get('group', 'Other')
-        stream_url = get_stream_url(channel.get('url', ''))
-        if stream_url:  # Skip invalid/offline
+        hls_url = get_hlsmanifest_url(channel.get('url', ''))
+        if hls_url:
             channel_copy = channel.copy()
-            channel_copy['url'] = stream_url
+            channel_copy['url'] = hls_url  # HLS manifest URL
             categories[category].append(channel_copy)
             valid_channels += 1
     
-    # Category order: News first
+    # Category order
     category_order = ['News'] + sorted([cat for cat in categories if cat != 'News'])
     
-    # Add channels by category
     for category in category_order:
         m3u_content += f'# ========== {category} ({len(categories[category])}) ==========\n'
         for channel in categories[category]:
-            # Build EXTINF
             extinf = "#EXTINF:-1"
-            if 'tvg_id' in channel:
-                extinf += f' tvg-id="{channel["tvg_id"]}"'
-            if 'tvg_name' in channel:
-                extinf += f' tvg-name="{channel["tvg_name"]}"'
-            if 'logo' in channel:
-                extinf += f' tvg-logo="{channel["logo"]}"'
+            if 'tvg_id' in channel: extinf += f' tvg-id="{channel["tvg_id"]}"'
+            if 'tvg_name' in channel: extinf += f' tvg-name="{channel["tvg_name"]}"'
+            if 'logo' in channel: extinf += f' tvg-logo="{channel["logo"]}"'
             extinf += f' group-title="{category}"'
             extinf += f',{channel.get("name", "Unknown")}\n'
-            m3u_content += extinf
-            m3u_content += f'{channel["url"]}\n\n'
+            m3u_content += extinf + channel["url"] + '\n\n'
         m3u_content += '\n'
     
-    # Footer
     m3u_content += f'''# =====================================
 # Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}
-# {valid_channels} live channels
-# Edit sl.json → Auto-updates every 2hrs
+# {valid_channels} HLS Manifests
+# Raw: https://raw.githubusercontent.com/byte10101010/iptv_my/main/myplaylist.m3u
 # =====================================
 '''
     return m3u_content
@@ -89,24 +84,22 @@ def create_m3u(data):
 def main():
     data = load_json('sl.json')
     channels = data.get('all_channels', [])
-    print(f"Loaded {len(channels)} channels from sl.json")
+    print(f"Loaded {len(channels)} channels")
     
-    # Generate M3U
     m3u_content = create_m3u(data)
     with open('myplaylist.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u_content)
     
-    # Update JSON stats
-    valid_count = sum(1 for ch in channels if get_stream_url(ch.get('url', '')))
+    # Update stats
+    valid_count = sum(1 for ch in channels if get_hlsmanifest_url(ch.get('url', '')))
     data["StreamFlex_A_updated_at"] = datetime.utcnow().isoformat() + "Z"
     data["StreamFlex_SL_total_channels"] = valid_count
     
     with open('sl.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
-    print(f"✓ myplaylist.m3u generated! ({valid_count}/{len(channels)} live)")
-    print("✓ sl.json updated with fresh timestamps!")
-    print("→ Raw M3U: https://raw.githubusercontent.com/byte10101010/iptv_my/main/myplaylist.m3u")
+    print(f"✓ Generated {valid_count}/{len(channels)} HLS manifests!")
+    print("→ https://raw.githubusercontent.com/byte10101010/iptv_my/main/myplaylist.m3u")
 
 if __name__ == "__main__":
     main()
