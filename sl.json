@@ -1,5 +1,5 @@
 {
-  "StreamFlex_A_updated_at": "2025-12-24T05:40:00Z",
+  "StreamFlex_A_updated_at": "2025-12-22T08:26:08.845062Z",
   "StreamFlex_SL_total_channels": 3,
   "total_categories": 2,
   "categories": {
@@ -21,13 +21,13 @@
       "group": "News",
       "url": "https://www.youtube.com/watch?v=II_m28Bm-iM"
     },
-    {
-      "name": "TV9 Telugu (Channel Live Backup)",
-      "tvg_id": "TV9TeluguBackup",
-      "tvg_name": "TV9 Telugu",
-      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo",
+	{
+      "name": "NTV News LIVE",
+      "tvg_id": "NTVTelugu",
+      "tvg_name": "NTV Telugu",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mRGOKibahsYRFGyVvIlwWZBEhpAhD2zkHZpydpLgjhPRA=s48-c-k-c0x00ffffff-no-rj",
       "group": "News",
-      "url": "https://www.youtube.com/@Tv9Telugu/live"
+      "url": "https://www.youtube.com/watch?v=L0RktSIM980"
     },
     {
       "name": "SET HD",
@@ -36,6 +36,330 @@
       "logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png",
       "group": "Entertainment",
       "url": "https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1766415725~acl=/*~id=47594644234814954102176797860025~hmac=625d8d575723a33c7cc52ab562620d65523eb63854ff3062b09b0e825934f424"
-    }
+    },
+   {
+      "name": "ABN Telugu News ",
+      "tvg_id": "ABN Telugu News ",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/GOUJFhDsIS8NThKT15glg5g4X-AT1N5ggPk-J24Nf8g3zMpqxWoqcfQRZNzQ-uygy9C9PPDF4Q=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766419891/ei/UxlJaYC1ItyajuMPwOC98A8/ip/223.185.47.132/id/HoYsWagMFfE.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3BYysz2e1hqy3-ZH2p0vubS9WvM_MrpFaeABfJAQ8ltLyHHmMP3tteJ6YfT5NYmIcBg2w/spc/wH4Qq2MteCVnmEcXnLCokQXBGFsDJSKO81pyYvjwDoZp7SZ9Vg5CEpNZaFbiNM0/vprv/1/go/1/ns/-LFOyzSoXL71BSUCHdqLVHIR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/pL7C69Xto4bXWF5OJ1/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAKL9qiqWp57h9sVgvPWIpIBUp8Kn3wvAGhOQx_gz8fkKAiAsTZIG7KlohIbO8artPfC0QUDKWUgMC9ipHT_vtwYGXg%3D%3D/file/index.m3u8"
+    },
+    {
+      "name": "V6 News LIVE ",
+      "tvg_id": "V6 News LIVE ",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_kl_HB7RxIxxf262dvKMtFAvjTbaeMTa2mgAjD6IXsZowF5=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420249/ei/uRpJafW7M6aV1d8PuJy6-Ac/ip/223.185.47.132/id/nrb8P8shbDk.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3D2MTUkJzmFTslvBvRXPL6f79GCRmkio0F6wUSAZme6Re1C48eNq4eubiAM2fpSM5yCIQ/spc/wH4QqyWLWayqroFZimYH53owf8SNMA3BngZLHmGo-q2NOOXQCFo_exu7qwFYIXE/vprv/1/go/1/ns/IpSHTXTmXJML-UMJdK70DGUR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/WIog0bm84glKhBwRXH/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgJKW0kDoysnkSJk8_uFk8cTZ-U7fq5iFUViaelFq7vx0CIQChKVcqKrSEPoqu0fpGeXZY3gAsrX3MhHuC3sSiFpisHQ%3D%3D/file/index.m3u8"
+    },
+    {
+      "name": "Sakshi TV Telugu News LIVE",
+      "tvg_id": "Sakshi TV Telugu News LIVE",
+      "tvg_name": "Sakshi TV Telugu News LIVE",
+      "logo": "https://yt3.ggpht.com/wxObdcwcNcCCm0gxCmWffTSHvqle0ES62mP-aTrmDsRLP1i5-_41K_G7K5inCrh8LouuLpW8Qg=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420413/ei/XRtJab7hLsbd3LUPwuHd6Qk/ip/223.185.47.132/id/9kCcUipLPJM.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3DLP7EKCeDjwW_AseWjO_K94i3EBdUwBwZsTupRMFbpXYkdw_ab3PqYxli-BozycFsZrg/spc/wH4Qq63k5oM5SK_P8BNXmWO46iwQmtAPk1kp1McTGWV3fhaF0urwcjkGj15g4WY/vprv/1/go/1/ns/FRhJCjievC3vBiORtQI0HToR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/SO5-MsE_pwpwM1ANry/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAILnssCJWZzc85m4DVYHFrensJShiuwHCv34FSPXvTqBAiEAv_LGC2Ymbsnwq_PFrJfV9iFXCCKE2v_c4YtzUHyp5Xg%3D/file/index.m3u8"
+	},
+    {
+      "name": "10TV Telugu News LIVE",
+      "tvg_id": "10TV Telugu News LIVE",
+      "tvg_name": "10TV Telugu News LIVE",
+      "logo": "https://yt3.ggpht.com/4ZgsXfC58Iik9umJTJ36a-GeiyHULKjKhdJu__02MC9-QkPx1-HE1TA5PuPDsJbWUHfvHLcyWSw=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420505/ei/uRtJabuoGeLdqfkP-pDL8Aw/ip/223.185.47.132/id/byG7EGw9NPs.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3ATOKFiLEjGQAUJ94cartV2168_1dy1sDdTPbY0xOimvN41gEOir6igQeeSzWHkB1h38w/spc/wH4Qqw7uoNchhvvpE2oWOoEpIkcmfd-d7VKOzwba7Vk1nBk477dL843-WQMk-cM/vprv/1/go/1/ns/gDJ5cni3XzCZVBHqKsGTTZcR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/akj2i8LF1u7AajdkFo/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgZZ0vYiyXMAur8cruOQNuUrBOXIwC1M3PqGL0qV3KBAACICizoh99NZHEhAEUo7NX-7cR0NPVOVtc4BwpKna95a7f/file/index.m3u8"
+    },
+    {
+      "name": "CNBC TV18 LIVE",
+      "tvg_id": "CNBC TV18 LIVE",
+      "tvg_name": "CNBC TV18 LIVE",
+      "logo": "https://yt3.ggpht.com/t1EmuG86KC1DEBn4NqpqK1iHld2rjW89d0FjClNMoUtFOSNLTSym1UMXhC1WFXJ_Zi-T-DVezA=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Business_News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420615/ei/JxxJaezRLuiEpt8P4vztiQU/ip/223.185.47.132/id/P857H4ej-MQ.10/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/gcr/in/hightc/yes/siu/1/bui/AYUSA3C12FjU1ety4rzna_WsSdMGg1GwntWrDRHPex0Drtxd55F401beqnlvR6HJslwlgpKGxA/spc/wH4Qq_I-5UiUfpKcJWeXXnJAtWajUBdV0QVtlLWiio_BdYdziTBaqRTDSNK0-Ho/vprv/1/go/1/ns/cIVx99ak5jkiFHCn7so03YsR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/mO3uRitII-dyAZZw8a/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgBJ7yklWZV0QgiWDvUnkq121wXMKsOyUvuWLjHSV8HGYCIQCe1AfMw58lT80S1ZCjJCv2lV3ffaKt6qGL4Hg61eLUeg%3D%3D/file/index.m3u8"
+	},
+    {
+      "name": "Prime9 News LIVE",
+      "tvg_id": "Prime9 News LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/uIuSMEblpunlTKx33LFbqEmc37f0mP-VIosZ-e5AVFF3oJ3qeiPm8p4FtwEYxSx5jfWTCAzc=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420698/ei/ehxJaYLBGuKc4t4P457quAE/ip/223.185.47.132/id/4PpS_RGUzfQ.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3BbJR2gKY3Dg3VUS_Nbq9ShFoefslTFG5BSgbmOW8oep18OjkCfOMvFCdD5DssGnjpCwg/spc/wH4Qq-aaEqGc6-d9Ktc27C9DJfx-SmSCN95jy1TPa5Qt8u_geJzIFCAD8LbVrqE/vprv/1/go/1/ns/JBa95AfRx-kZqoWYUHrlRs8R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/0ijltim9VahM-mW-D8/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgZ0n6pHGGuh9GcpDMth2szTwbgDmNbfdryy2Bh3r_NrcCIGXbbFpfGQVz7KWtzKtGAwYEQ80lb8XMkFbDDzT_ttyU/file/index.m3u8"
+    },
+    {
+      "name": "BIG TV Telugu News LIVE",
+      "tvg_id": "BIG TV Telugu News LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/tul5Ij6mtGca8TPqw5mRWiw8WKEmGJbi6t81fpMee-myPRJ7G1l3AP9mRelPx1msJuwdcj-K2FU=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766420929/ei/YR1JaejRFMiV4t4P7rWs6Qs/ip/223.185.47.132/id/M_2UPAcgxrY.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3ALweSp-dtOdIuk2yU_QncNXrFi0ZEe82WPXwhmoxHpPdr-xZIKyVUioJB36_XxZXGR9w/spc/wH4Qq-8pldnTfs62n86wPKWyy6SCI2nCAOfkqxmbeGTP4UbA9xbLt8PhKq1Xbi0/vprv/1/go/1/ns/3W0y69joKqW8mWhA7_yv5n0R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/ZbczHy44XqRHV_1dim/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAIpQF-jA3Ci20Zoj1poo7KVyZJ44UivnKTvbmzG1YoVIAiAR51KxyUwu2B4s03YDxaDV0PHk3N1EhofsnPaGvPOINw%3D%3D/file/index.m3u8"
+	},
+    {
+      "name": "TV5 News Telugu LIVE",
+      "tvg_id": "TV5 News Telugu LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/LGO5Xno9yxe4izOh70_GZZMMrhbRqRNdAPu5fUQ43TJfS4azbKQu0lV9al6qpdpXZW9yeuTaCA=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421008/ei/sB1JabnMGbqy9fwP2drQmA8/ip/223.185.47.132/id/NdmSb1MnSR0.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3BEZKJZBtxJeX5eAKOPj8ClHgNOunSawPE8KGwfHxcTzh9taCZNHzPXvmQhqw5HIO1iSA/spc/wH4QqxN6ZmZyd-vjnkf5n4ibLHjflOl_tAh2fNi4YYoqAmK7EW2RLAjbRWLHJU4/vprv/1/go/1/ns/L0h2nphAAxfy0MwsKIKAVOYR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/9i0DFs2EJymPsJTIBf/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgCBpGL6vtRvx9JgLLtAQZ_Y-Yl1ZA-tvkaNcsaat_EuICIQD22GGkgLYazCHB0FNdB8qLY8HgdpksaLWNr_Zy8DOTUw%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "NDTV Profit LIVE TV 4K",
+      "tvg_id": "NDTV Profit LIVE TV",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/DXX5mzlhxpRsnf-dchOB5y5rWUAzH7QHSIH084-aNghQiw9Bl_CITt0_eVEcsVxwn_O7MPpzYQ=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Business_News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421164/ei/TB5JaYGDCYnb3LUP5rGkyA8/ip/223.185.47.132/id/ydiWklMUhcQ.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3DQ-Zl5d57hnFRX7J3TeI9q5m5ccgzCzBvM07wTBSRHZj2Qhn9tcdu5b_U1xKaOzSmCpw/spc/wH4QqzMsZqWMDHjqX7XVZiGTjAUNkpVAgDMjeBOnCLnu3G_GKZyIvfNNr1f31Zk/vprv/1/go/1/ns/Tz1t5kWpPLo0qtVgsA8gpcAR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/CRz-YEs32IByyCVFaO/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgXkKOr6O678n8-QEXNbADuGFbAuuI7HdN-PXMQ8IXj64CIQDIna2dfGahjlhBrCNzToe_5Oau551CbkKswWtvI9ljZQ%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "T News Live HD - Telangana",
+      "tvg_id": "T News Live HD - Telangana",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lxDNkVmsYCjbbDzTsVH42etOlCxG8mSMYVwvUkdAFdkwc=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421287/ei/xx5JadKKHdCU0-kPk4fQoQg/ip/223.185.47.132/id/e_JVjPm96V8.9/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3CUjogdq6vIFjAasr-svwd6J6jz5TS4sEjyVRUtjrg2UpZLf8q44FWM9uxr2mCQpNyIXw/spc/wH4Qq1zb6d3u-EyuZW_UQelGkYGKZ7xv_M4aMqLuseSbdfG3xrY2A7X-qTehnfY/vprv/1/go/1/ns/jiWSTJcf2OzvEsWBZNUq_VwR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/rp4g20_QNPKUzkVhzW/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIge48o1utmsTVB9kTTHU3Id4INVzF-T3BGSH9AI-5S92sCIQDAcjCaOcVbCPr4WgnzBWsuB_FUZR-UUWgMHZZGXVYEwg%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "ETV Telangana LIVE",
+      "tvg_id": "ETV Telangana LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ITI7b925M1eAU3qwA6D-LVKjK6cExgmyfBu8KOURiBIxgZREpqkox2IUDSZR1f-2jcn4Gnl2=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421410/ei/Qh9Jaan3G_rWjuMPrfqQiA4/ip/223.185.47.132/id/BCy5c8vy6N0.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3DWKK3cMnsegDtqiFB2SH5YxA5fdJo_CrgHp5BBgCR21wfbp3cP-kAOsyjlim4z9C0U5Q/spc/wH4Qq0RWxiobD-i-0gGFAcq30voPY7KvtIMk0O4bKLn0a_TIsviEeLL4KqYXY1A/vprv/1/go/1/ns/-23get0dskeu-sxt4HPvS1UR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/TAFaIxKIiINq8JMtuR/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgbJX-RXPREXpMwZJRYdNYd89g-yaKDUOuHmV7jiqcSRoCIQD9rBNdSsGXo8xvohc5XZf-3sds82ISJ2DI2YP_tIY4lQ%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "ETV Andhra Pradesh LIVE",
+      "tvg_id": "ETV Andhra Pradesh LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/VaQ2xMdQoDws4D6U9ekGeRNx88ah1QHKCXJYlaVzdEuxEeV_exnqc-O0SLjCTRncZMIxNSPQ=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421470/ei/fh9JaafNFI7c3LUPnPShSQ/ip/223.185.47.132/id/45ciC1qVVsQ.4/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3D7v1U38FBTjuGSi4AjGbbylvI3EyaDuJlf4Cns-cKGMTif_YShABftnyXpTYfmPjEjYA/spc/wH4Qq8lsg6F3ZiU_-bLOWNPhht9FWXos1w1jriuNrCD0iP9yqfLlGq-o5B_nL0o/vprv/1/go/1/ns/jwK5XQYVcgS6TbCX8NhHCc4R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/m6uKYF29OxE-mgz0tn/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgDkl1hz7mxtACWqTJ7wMcJoPTVuiOR0MJy9F77kl08oICIBs_tWKgR3wr1y-jqAgmqF2Xsflf7fLicZ5xyIdfPoDT/file/index.m3u8"
+	},
+	{
+      "name": "hmtv Telugu News Live ",
+      "tvg_id": "hmtv Telugu News Live ",
+      "tvg_name": "hmtv Telugu News Live ",
+      "logo": "https://yt3.ggpht.com/bUA98SDJc4mF-qLGwzSuYCzHouXD7-IPQsiIHyekYuTOKEjfvgKQ8tGoFocMSP4s1btGZ6t4aw=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421547/ei/yh9JacTCO4btg8UPiIKJ6Q8/ip/223.185.47.132/id/eG1iyONIC4o.3/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3DY-FOsGE8_Rs335EVqmfr9WaO_PWYW-pX5L8A1f7JT90rCuc38EBPVZ92cUFhVBzgbFQ/spc/wH4Qq63044npa-FhgnUxMqqL3y8yn9cnL41XZOh-5oSNTRFr_iut_kQ22sVnu2s/vprv/1/go/1/ns/R8_-EBb8HFaTloNaU-V0ebAR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/D3AjgfYMcj9ZsFaOpZ/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgBPOpR-6H52n4BuEcXfVUjcvXBrT9_a-b14dY0Cl6DNUCIQDEDA7nSBDi2uTEFdgnenOwpqTPoLSXVW9Ho3nxSjMd_w%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "Raj News Telugu Live",
+      "tvg_id": "Raj News Telugu Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/42MCoSD-089MPkd90hB_25m9BqjH4-kA6z6RzwpBmVXw5M8xiy8MUcyFXyLDLf8CGI1D18o6=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421620/ei/FCBJafDMMqnDssUP7aKMgA0/ip/223.185.47.132/id/tzngk8fvxFs.23/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3CqAqIP3-KRMC_h0sVQlDCuqfH48nGbiaB-tVKE_qU630ihrjZFXTxL_sDNjAHNnjVRvw/spc/wH4QqwvdOxDhapLx4Vr84KkoafDGkyvbsQxcmLUCvjQRJqSDtKFsXZ3Y_0AL-cE/vprv/1/go/1/ns/vldth89bx0YNn5IfNGWieAIR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/uVqzEXMQ7Po9v6AN5R/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgK9ED-V11qLyT6PmaqkLcqUljrhjusC-AEKVqHLa37fACIQCtcympdOXi77gXnx210TOyYEfTrwfNYPA0NfFqImo2Kw%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "Mahaa News Live",
+      "tvg_id": "Mahaa News Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/IZyc3VbL7WK2UdN4f4kzysH5646Zkrl8_C4O08efcf3uAnBM39c4p8FmwC-fIhTbVOryMyb9=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421690/ei/WiBJaZi1IMnn4t4PhrDR2Qw/ip/223.185.47.132/id/SOXyyRhpN5k.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3DGTC-ZUxFjmIyI3RDVbWJV0OAnslXI9ndYRU0V7EcA61Gy6CrJk8abLmBPpYBdcdIyqQ/spc/wH4Qq1xE3HwBNGWgSujM1RyISKLEpJ8XeCf4pdRFuhXx6rARLsLxxq4xmS4Rk8c/vprv/1/go/1/ns/3Cf8t_pn4NB44F-wgoaZERsR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/OL5xwSdqSUQ9dlNenF/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgBFxXP5UFDqEOEEOkKL3lMsR_rlvQX0SyOQ6U8rnDhSsCIAKlcEYUy1DC50t-dvcDKlp6qV0Qgq0_g-hZF5gGuDUN/file/index.m3u8"
+	},
+	{
+      "name": "99TV Telugu LIVE",
+      "tvg_id": "99TV Telugu LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/vyJrn1pxqC-WA1rab5SOtAdM6JhXSivq6L3cM2k5mHtmqzTEz110V6D6mY271zp-h49OHpNjzg=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421769/ei/qSBJaYnFF7Kd4t4P-vjDuAs/ip/223.185.47.132/id/cNJK_Ekk2P8.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3Dvbvnih-wY4Loi0KS3LN4oAwohChmDEqeLGH0ImHuxHcGBeb0-PFvImSg9ztv_hwaLhw/spc/wH4Qq4DyxbN6KB8Hr6Vr-Kh9xt4Gb1mJt9p7ddjaE79ohr_G4_oAge6WIHbvXxE/vprv/1/go/1/ns/MhJswqYX4Cctb8MqRRM2cDgR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/GTlm6qomkMXQ1shl3A/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgLmsaCWyNfLeL2Rgo1HrqtYUzVW70xBbfpvq7bws8gMICIDYiTW7kTtZA8PWJeapUd3_eP-AO5tcGS1SJsVYIhgI9/file/index.m3u8"
+	},
+	{
+      "name": "Siti 24x7 News",
+      "tvg_id": "Siti 24x7 News",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/q_9-469Z8aErwlMvghG-ZTpA0ljKOlGSqy39rV_dAhkeXFltuL5iuGvL6sXlVObY3AOsCQPy23Y=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421901/ei/LSFJae3uDJb14-EP1fGM-Q8/ip/223.185.47.132/id/hDOTEMHQmmo.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3Au0Rqidt3ICYTZNVgXLT26nr_v0MmRzd4RX6UQLXU61_W5XC4__EQY-vu3RMoLlTVArw/spc/wH4Qq9qdWBHdKfvEnfR6QQzKTu1KtTXZ38WxXiRzb7Bp0X0xyhNbj1ZoL_ArRNs/vprv/1/go/1/ns/PXWmfsGkjolqBRCP8rPmUDgR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/XfVTjdyJ_bSoYMGwIZ/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAM6hpsJ7IXaZ65Igq0bg-ss1PVIW5HpCCK7jHzYqDjiiAiAemWD6PkFSksB0uSaBHuSfalWxnAM0R8nZDWgw6R3v4A%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "BRK News LIVE",
+      "tvg_id": "BRK News LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/9vKZ6KzzfDXpImP7jgn-Ggcr1Rl7rh0S6osWPNMQTmdkOQin23-mTOY0PFEZsOYIVYcV2nGAMw=s88-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766421972/ei/dCFJae7aKI2grfcPtY-86Qo/ip/223.185.47.132/id/EJG07fw0rJA.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3DsQ_4e9sGEYMsFAhgaXPV5kN8ScNtkxZi4lKjmBSK6vWKMHidbYlYq31PtrP11yAY1rQ/spc/wH4Qq9GXWNGz6AlO-xV1sdkZjYi8pLE0WWqqo4ayRfCwgLIUVMw-v0xOo7dJMRg/vprv/1/go/1/ns/lDK3sQ7bNNubP_TMEwcplZUR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/rFFnjYtMRAAyxlqQX7/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAKgJe4_NguL9hbf950l6GNiHNzStGGVi8YIp5TMzQ0KcAiB6_kN7VXjWoNVw9Uag28M5SFo65TQixfC-piGzt3Bwdg%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "iNews Telugu Live",
+      "tvg_id": "iNews Telugu Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/xePtND8CcdCY1ZOshT0pEz81NGNgDkEgqW_M3VuqoGgwo9KbHQK92ScRw8XIsZxIgwqDC7Ec=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422053/ei/xSFJaZqlD6j3pt8PuNuyoAM/ip/223.185.47.132/id/IMSuFZC5YM8.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3DVb_NpOTzaJnnqcpOJerHwt2dzWvN08LtiuphxBh3-4mY0tRhh9Djx2BN-dl_-nQ6ixg/spc/wH4Qq-oKCx9JS4kMplfd_1r9tFkdaH067Cc-KopwTqup6bVn-Ix3EutHKnnHnB8/vprv/1/go/1/ns/y_6dRkq2EPvjXDBr3jB1c68R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/qFtggrNt-TNSqrTeI6/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgLrUzl12w65WJ0liBdGw5iMtSc8FMRwEQqTPR9bRbUBACIEfXC6DyP6PpI4yxtsOj0QV6_XJwiFMCJDdMje_a1TU1/file/index.m3u8"
+	  	},
+	{
+      "name": "CVR News Telugu LIVE",
+      "tvg_id": "CVR News Telugu LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/rLMxjcF0KpUjEgh2gcCswz0RAZrYJcZOTycaqQVacqwD1MdquheRyjqfi_18AnnKovbFRkUrPw=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422127/ei/DyJJae6pIPKs9fwPkK_1wQM/ip/223.185.47.132/id/i2dM_yKZeHk.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3BwniWNruWC2dRq5YbFxO7X49NtZ8tvN_ArYtr1kBxW13d1kafiYdYtMFfkA0b4dCyqrw/spc/wH4Qq0-ybVlzDmLoPZXUo0bgyy6WMXLYcBMtQMm0LJar7Bv03PFyjVBZDGXEzr8/vprv/1/go/1/ns/0TUtfIl3d3kadVt_93PiX0cR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/_jASKRDMr1GmAqC4vM/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALhKpkGpsxPmLSilQCvci0kN58z3krVSAKyovOPGhtpEAiEAtYqx3TnmtYSC4jSBhsDpWG8AmrSCYIsDZJj2axpHRZ4%3D/file/index.m3u8"
+	},
+	{
+      "name": "Mega9TV Telugu Live",
+      "tvg_id": "Mega9TV Telugu Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/mHzfuM9FPIxiO5javbakaPhloFm7m2D4k-okuShKIVL5gW6vM88j0PXQqVbqe707OupxXVXoLg=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422193/ei/USJJaa_wGb2y9fwP8LrxoAM/ip/223.185.47.132/id/kQA3AZbybAI.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3AJ9y6GsnTpTMr1vFPFaShJR29CQBDcqPXu46eVXw1-3tJ8ypzL5VpuFg_rPv13Je2teA/spc/wH4Qq5j1Cq2KyKxTe92r63GHYwaUSCAetqOkQ5z2TtOZgh8LWmO0nf8qZc-PXyc/vprv/1/go/1/ns/61lXa-QvWJdrIaymYDM8oQcR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/sRgo6NS263KcFylW4R/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAOm-K-0dmHQ2_rSb4MXUrI7j52K-TxeFytzqKSn-3aNmAiAbYsXPdtrRLvvzlwDdifMdvLQdssaZiDWtNPfPfX_EtQ%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "ZEE Telugu News Live",
+      "tvg_id": "ZEE Telugu News Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/zAE4omB2UohakP6VEq_K0KrUcET2fiN3IyIpMUXLRyxMqU_ZFSN08IXN8cbPGp-vfI9lWWbI=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422346/ei/6iJJacvEOaHd3LUP3YHo6Q8/ip/223.185.47.132/id/ffI9-IioJK8.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3ASNY1fbgAh4OAQPH5aPENGYsbd90mymU2xQw7KAvcDoGEVXfIFspRaBPcbfm0BewIEtA/spc/wH4Qq_mOyai0WV70yfP41H9GXZ2VmhLa3skSsFnmvjiBo4CgnO5TWqYQeEC2gow/vprv/1/go/1/ns/SEuvMTcs6lqFIV2ddNsUP9QR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/p__PJ5XeCvTZP9mRBj/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAN8HP2TW-yfnOLS0MbESmc16AQ8d5aGrODc_QlYsEymdAiAkz1GIhxRw3XINM7CAlOuRVm6jD6dBTboDl69DFJIrLA%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "Bhakthi TV Live",
+      "tvg_id": "Bhakthi TV Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_kxsY7lAdRk1ZHKtVK7BtAZuCV_V8tVSVu7mynBS4Ix-BU=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422402/ei/IiNJadTzCImEjuMPkJut8A8/ip/223.185.47.132/id/d0dB3kSCMmM.10/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3BBn1Cq6hGmVw23fnAxMGHS1LO-ICmFbMOWAnwBqJOjTUQiClM4S6p2MEDrWbahIhondw/spc/wH4Qq4eCgmc4KvOSPaNfepDuVzrCXQul4WT1YnfUOTPH3jbfnX2X5uu0ImDRA6g/vprv/1/go/1/ns/zXDo5E6LCsXPjR_GjlhMsqAR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/o-sbhbfTWwQRvw7-Ql/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAMXpnJMMjnPPxpN5Q34AL_znMRHdLAhC2YHZgk3BKbWOAiB4PxtQm2i186uI2hW38IevBDeKhBMcj59TH16deMsuXA%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "Sky News",
+      "tvg_id": "Sky News",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/dGnkztdrLtXRlzkdqReeL-NES2761xxmNVcJhGKqFpR0vQBoP9XaxnXF95FDpwrjyFr2iJvV8Es=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422495/ei/fyNJaenIK4Dd3LUP6svLiAo/ip/223.185.47.132/id/YDvsBbKfLPA.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/gcr/in/hightc/yes/siu/1/bui/AYUSA3Cbt63NJvDuDMbVVtKFwofqTEaQEBe2RDZBEkbZTp-DrBXHA7kSvybp7mf5UagozCl5qw/spc/wH4Qq6qOOAuw6Dy1UqhXlgo8dbiUBt1MDMeeEekR2Yu6g8av9Jo6flO915tPhUc/vprv/1/go/1/ns/RHaUoYJ9Nk4ZnfwS0lUiKPYR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/TxBqSvMPodlTUhbe95/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhALB3FxLQyqcyA3FFFThvYyGFFP-L-UWfNdwmxrVAlLcgAiB5vU5XTbTkTf8xU1smuWS4HNzQk4b2KfUQ2GUXwdDapw%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "YRF Music",
+      "tvg_id": "YRF Music",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/nf15u1K12VXgBLh5HTf0asDF5Fc36RsUICRi8xY1Cs0QhAL_jmtW07wAUdRzrYDBKwv_KIa09Q=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Music",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422573/ei/zSNJaf7EAsrJssUP6_m_mAs/ip/223.185.47.132/id/yvWggAG_x1I.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3CNOMu9rs49UpDQsCbb0KG23-nElKtw-sN-LK-e2MQBwxi2xcUurgz6JRNKFedME2pvog/spc/wH4QqxeUccw4M4Ok-t5leDM4sPHgg9b0ikueuvAun_6_puBqa3PNOFk-NTxc5l4/vprv/1/go/1/ns/Z2L_du9TEoLwwslNsDfavXUR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/4ks0H0XA00CtiIxJ4O/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgAxL_KQ-b3ydyS4g5bAlLAyP4uJ1YNWC9Vl2nZo3C0PcCICLDThZ4uIDYfQkHjc1zeE0jMoTG77qY-OZzAiGcNJtq/file/index.m3u8"	
+	},
+	{
+      "name": "Epidemic Electronic 24/7 Live Radio",
+      "tvg_id": "Epidemic Electronic 24/7 Live Radio",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/g1Col7J5m7NQu5xgDyzMlxx9Qlj5sLe4XM1Pmgd605P5_tb571ZiZpXNtWshwAQ-S6-av3IcV_k=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Music",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422639/ei/DyRJadmtL56c4t4PhfiV6A8/ip/223.185.47.132/id/whACSpi2zQ8.4/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3Bdm-FP98dwe2Ty_UVBMab0FUXo1xc7IzKk9dlz5X07HtTMYHlbwMsylh1fckCArURyDA/spc/wH4Qqyc9MkI3bnYgI4tJmmYfMnA2BHXwCJRnrPtLUQcwZnxrpy5f2lmuTOOfmP8/vprv/1/go/1/ns/vS4gYT43N6hXS8MUeO2lrGUR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/zRmp4CplU4QHLjS6ZQ/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgNqXjnuuYu8kAiBUdcHCdey8rmInFsWm0T1TedF_k6cgCIQCfkOaIxpKjggIeVt1Ui9KeklximGgvHR7B5EevqGq3ZA%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "Trap Beats Live Radio 24/7",
+      "tvg_id": "Trap Beats Live Radio 24/7",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/x2BpPTKL-oRYXjU1nUCo9bheO4piaePvqWTvXpbYzP1j0LQaus2CyOzfG-gd4thIbvovo2FBqw=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Music",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422777/ei/mSRJaerQLevw4-EPovvrqAQ/ip/223.185.47.132/id/EA-6o1_vrsA.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3DQ9Or1QXGXTEpyjCnQ7bWIPm4ZuhAgKkaBmAcC884pHB_ATjNikX3aZyO591CcQoRi6Q/spc/wH4Qq_-XfV4z_NGdQZ27TxVhqebrjYIeYAWOky7e-TEdlSVVqIXMyBL_xUqngz0/vprv/1/go/1/ns/iqfq0OlEA7ko_orrfVe_1BIR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/KRRgRNZsw2T7MJmESq/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgG_HNpGQLboI31jpYm4ZURohM4Lf2LS0XJxLbZ9cMcRQCIQDiwTpjofSonaMlpM5jdB6uqwoe9HQYY7MuGkuJxpOplg%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "NDTV 24x7 LIVE TV",
+      "tvg_id": "NDTV 24x7 LIVE TV",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lcj8idHNsaTiTITY2vWQD6gaxZ6ITkpQPaLVskaDMyiml9=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766423822/ei/rihJadqrOcfKssUPovSkkA0/ip/223.185.47.132/id/uoK1dFpMo98.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3AGpZVnjjj_IC_nxSP5wcxfiUDpJb4boEH-aRGxztpdVMkbU4ejAR9AwcL2nqEd16H4JQ/spc/wH4Qq-jhSSUv3BpfRRW6Lw_sZK2laeswAqaLPxCshvcgpzN_2CBd3cYTZ0d5DKI/vprv/1/go/1/ns/_09hrM3lCR7CreN8FznYh0AR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/YIVQ69uhhbd2t8I3Ma/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhANvHcLVryrAoznqbAdJdIYxCswzhZrPOFooL3HZktB4-AiEA2bAIXhY_XyQspbnHNtH1aQz_BBQWEKy2oBz33Vdg-Vw%3D/file/index.m3u8"
+	  	},
+	{
+      "name": "CNBC-TV18 Prime LIVE",
+      "tvg_id": "CNBC-TV18 Prime LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/g_5akqiTIVNLnJ1YpU4-JKC2V4UC-Z0V5X2ghPte_aqwxn_s5OaTkSV9oShZ1-9SK49FGn9M6Q=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Business_News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766424084/ei/tClJabmlEr2OssUP6KTboAs/ip/223.185.47.132/id/hZpvudz_oOw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3ClljarwqDjI1An5jRuXT1zodbmzNZcwtJkypMb-JsfJHBCFPae6AvI3nWI-tsef6lxOA/spc/wH4Qq2AKXjGU-SDXfhD9-CV39IdE2ywP1o0M-pSCKupkSf3SOKQTpYKl2mtESss/vprv/1/go/1/ns/W07p53ngMrrQ_HFoZ_q-_QIR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/xSgFFz_rPgMmXX2Z4J/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAISdZ54ISgznO6OpPbODVgteNh5kArbZTb3muKZ17LuZAiAXTfrHvmm0jSBGGujvvuXKOUkee8tDp6tsaUqJv7d9eg%3D%3D/file/index.m3u8"
+
+	  	  	},
+	{
+      "name": "India Today TV Live",
+      "tvg_id": "India Today TV Live",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/T2CFyCYOvSqnAJZL2HTDrLw-9Z48j97WXjHn41HoPXZ-ZaeH02WAFSBe2cDKRWNcjZR5lhtKcg=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766424248/ei/WCpJabnmA5OqjuMP7_yp6QM/ip/223.185.47.132/id/sYZtOFzM78M.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3Dbl7y1418vtw41pChX1GEEyzAr-4pPe7PFycZxkeVUcYD1UueDxdtQU5qD0s0IQbO-bQ/spc/wH4Qq6eDCLdf0ev55sToVS_tvDy8Hlm8kBDmJQkNBMuoYC8eVjQrw2MwOaj4Xg0/vprv/1/go/1/ns/FlgURTM5scsQyVIbiDHgKn0R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/t5PtJPUGEG09uxlzgk/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAJUZGB4Zr97ke1KrjhTEFUxAW1VNrFePCqOcy9JOhvrCAiBRrgpSei2hv4UBrer2D_eDndWUM0ijWdOMr0wQgmp4aw%3D%3D/file/index.m3u8"
+	  	  	},
+	{
+      "name": "Republic TV LIVE",
+      "tvg_id": "Republic TV LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/FrAieGazV-tntIEPk5M9HbnKOSaWr1UKGBucScJyiHlLNBNQq4H41yWFGCKUDMptraHC0NP7UvA=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766424494/ei/TitJacrjEoyW4t4P1fGeuAo/ip/223.185.47.132/id/EKZ9o6kApH0.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/ss/1/ssa/1/siu/1/bui/AYUSA3D9Gjf7TVaJN8ivPjSxm21BVkB7BVIURJrxaoBfTMgeUFSoVo6eBpY1gEUtfh6RmCvOIQ/spc/wH4QqziUDDO-C1rmNv2ORQE5TzyEpZb-6eP-AgZnJAzAkn3apD02w45McS9RZ8Y/vprv/1/go/1/ns/g1S96AkNP4cn1d58_tdFxngR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/uQEsW4x3MiDa3t8p0U/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Css%2Cssa%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAN-G0MYPZo0rrnb9Y0xcbYVGbPzyGMtB3vefNoT3EcKTAiEAu0G9VEZl92N7BLDD4k7z6ucEEIHLECCfdDo4bbQHzVM%3D/file/index.m3u8"
+	},
+	{
+      "name": "CNN News18 TV LIVE 4K",
+      "tvg_id": "CNN News18 TV LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/SHQE0Y5rb996mAAUmkQZbJdSWj_rcce07GwKk4LTYkf9PKABaWtCEc_a6SjzZPqOgM8pP4kByXE=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766425598/ei/ni9JadGSMoT5juMPivThkAQ/ip/223.185.47.132/id/VKGZGQzTTXA.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3BOZvC_XE8Hx6Dg8I1NTrUxA07ZdioNIpZue3DvckYwPiepgL7Ad0SunDSiJOXqiueOEA/spc/wH4Qq5szNxALx_UyrvBiTx3MM-ztdBKH-WSZwQVKWnmekFB2yoo-j-mlPVrZXyE/vprv/1/go/1/ns/2COQXw0J4Va5s34mBSEnq2cR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/WbGy_Qje69UZaIekIS/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAKbDJjZZxRD4WX6ewI-_uOQLApHQpurNCew_wFKgKBI1AiA5IeKsimRIquWnnY91X9hdhHtyieUj6l27Wpz4E4NOYw%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "News9 LIVE TV",
+      "tvg_id": "News9 LIVE TV",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/59qbEgr7rhhe4at1KqExuPKL7wo-zT1NpI7QX36kn6Dmg1VnGmgq56xJKwQA3cKR7Lkgng9CT58=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766425707/ei/CzBJacGXGtGRssUPqr7z-Qc/ip/223.185.47.132/id/J0ZujYMxWUk.20~45697009/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3CPYpMAvB_GGyfQAZbOgq62ZGs4s7cdCyxrj6oxIbCfY0mR_3ztNlo8bA92xvyoApIt6g/spc/wH4Qqw91UK8UBHA5YmeooTH5f46jqFugop-qge1f4usSutdvY-W_jGZcToxoxPM/vprv/1/go/1/ns/OTjva5yBlQzV7Sk84IcHz84R/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/_gB7F2Gmyi89U13tZ7/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgbwy2TrvbMlD4HMQRFI1NKhedDMSBwBbV-z_vKBqhiEQCIERjtmXjMeE-qn6Qo7z4vCayL_tRiWV0jm8zEzPKHO0W/file/index.m3u8"
+	},
+	{
+      "name": "WION LIVE News",
+      "tvg_id": "WION LIVE News",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/evxeFzRem76hjPRh_S_B5MvjNhl4yKjSrIzmvwFx3nyEWHBOPHA4jTum6Yys3HRR0IvYmWud=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766425873/ei/sTBJafmOIc-qjuMP7vDxwAk/ip/223.185.47.132/id/vfszY1JYbMc.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3ATFakbJfcLvuVYv0WklvZrNFSU9p_7V8x9r-KwtrvF26VcKUnY1wKEKJ26yY8bAwq-Wg/spc/wH4Qq-zd92hnR6iPUCbILyB8WtjDmLjP90PRHhuO7qehnSFWxfqTYKMonctcARo/vprv/1/go/1/ns/rdHpMb-q6_wdpmhvos9q17AR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/Rn8fLuKGI_TFFTXswW/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgSh-BBluZnfAemvI8zldY3U4Xn9_DcP8kbmxDAAB5kVMCIFR3xbuku13vJzbwnkFeiJ_RyEt4PVgS36b005WLvXNe/file/index.m3u8"
+	},
+	{
+      "name": "DW News livestream",
+      "tvg_id": "DW News livestream",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/NSOdTQTWlqMy8O_j32dx-ftfTCHMOt04Hm7KZ4pfAK6-eQzQSZMWvvss90kG8KQfJ7iNP3phyA=s48-c-k-c0x00ffffff-no-rj",
+      "group": "News",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766426072/ei/eDFJaZf0KrHW4t4P-qXl2AY/ip/223.185.47.132/id/LuKwFajn37U.12/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3D8fvi9UlNmFOQomdXvNt3B8KaPS0EfM97l8WMHZevLIM5e5TanYmEK1iR0rdk7GAI51Q/spc/wH4Qq-q-dKXYOPqwHO7go7a7k9Ekrq1GS1jPDqInLo6pUzwrYyA6XJHc2kWC_F0/vprv/1/go/1/ns/g7Hw5HjXStg-xyvsB3qSG4UR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/hi3dlQk4OO5CgQcenM/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgNUfBw5Mus5X0rh4xo9hrbMnA1fVWB9AL06jg5Zi5RcECIQDWZw6ZigpKwtk35GI77MTmOpG38A-cnkQF06q7amkP9w%3D%3D/file/index.m3u8"
+	},
+	{
+      "name": "High-Definition Views from the International Space Station",
+      "tvg_id": "High-Definition Views from the International Space Station",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/eIf5fNPcIcj9ig-wZBeq4stFy1lgjWTW1nLT5dYlFkHZprZ03QBiMcbpwNMB6XSBjrSFGtAGQg=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Geo",
+      "url": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766426200/ei/-DFJacDuHZL9juMPqeq4oQM/ip/223.185.47.132/id/Hj1XwNjvkDE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51539830/txs/51539830%2C51539831/hfr/1/maxh/4320/ctier/A/playlist_duration/30/manifest_duration/30/maudio/1/hightc/yes/siu/1/bui/AYUSA3CzLGZxhJIZgbies_F1BTBm-1CqD8_uVxrj5uQp9tf3eAAIylO0cF05_dM4KZukwaseyA/spc/wH4QqwdmTfVRX2MOFterlDNJBaQpYrL3ZO9RGzi7p8tL8FuQzfPiK7RIEnm8D1c/vprv/1/go/1/ns/j46RRJmJBPJdNSd5Jc65CbkR/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565116%2C51565681%2C51580968/dover/11/n/RsVxHqT1x3c1w2xxqY/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cmaxh%2Cctier%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Chightc%2Csiu%2Cbui%2Cspc%2Cvprv%2Cgo%2Cns%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAL2zjPV2PmwDyUjzaFTUnZFV1OdvpD-GxhJLdt5EBSjtAiEA14Av0RwZPFE31i3EcTFxH-gRCAtGqSdXAIC0MxNZJDE%3D/file/index.m3u8"
+	},
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	  	},
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+	},
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+	}
+
+
+
+
+
+
+
+
+	  
+
   ]
 }
