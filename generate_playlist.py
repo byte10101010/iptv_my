@@ -10,31 +10,29 @@ def load_json(filename):
     return data
 
 def get_hlsmanifest_url(url):
-    """Extract YouTube HLS MANIFEST URL specifically (max res)"""
+    """Extract HLS manifest - handles both live & replays"""
     if 'youtube.com' in url or 'youtu.be' in url:
         ydl_opts = {
             'quiet': True,
             'no_warnings': True,
-            'format': '(hls-2160p+,hls-1440p+,hls-1080p+,hls-720p+)/best',  # HLS variants priority
-            'live_from_start': True,
-            'match_filter': lambda info: info.get('is_live'),  # Live only
-            'hls_use_mpegts': False  # Prefer raw HLS manifest
+            'format': '(hls-2160p+,hls-1440p+,hls-1080p+,hls-720p+)/best',
+            'live_from_start': True
         }
+        # REMOVED strict live filter - works with VOD/replays too
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
-                if info.get('is_live'):
-                    # Get the HLS manifest URL specifically
-                    hls_url = info.get('url') or info.get('hls_url') or url
-                    if 'manifest.googlevideo.com/api/manifest/hls_variant' in hls_url:
-                        print(f"✓ HLS Manifest extracted: {hls_url[:100]}...")
-                        return hls_url
-            print(f"✗ No HLS manifest at {url}")
-            return None
+                hls_url = info.get('url') or info.get('hls_url') or url
+                if 'manifest.googlevideo.com' in hls_url or 'googlevideo.com' in hls_url:
+                    print(f"✓ HLS Manifest: {url}")
+                    return hls_url
+                print(f"✓ Stream URL: {hls_url[:100]}...")
+                return hls_url  # Any playable stream
         except Exception as e:
-            print(f"✗ HLS extraction failed {url}: {e}")
+            print(f"✗ Failed {url}: {e}")
             return None
-    return url  # Direct HLS
+    return url
+
 
 def create_m3u(data):
     """Generate M3U with HLS manifests"""
