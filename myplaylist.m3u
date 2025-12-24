@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
 # ===============================
-#  Your Custom IPTV Playlist
-#  News + Custom Channels (Auto-Updated)
+#  IPTV HLS Manifest Playlist
+#  Auto-Updated Every 2 Hours
 # ===============================
 # ========== News (30) ==========
 #EXTINF:-1 tvg-id="NTVTelugu" tvg-name="NTV Telugu" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_mRGOKibahsYRFGyVvIlwWZBEhpAhD2zkHZpydpLgjhPRA=s48-c-k-c0x00ffffff-no-rj" group-title="News",NTV News LIVE
@@ -128,7 +128,7 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1766422777/ei/m
 
 
 # =====================================
-# Generated: 2025-12-24 05:17:29 UTC
-# 38 live channels
-# Edit sl.json → Auto-updates every 2hrs
+# Generated: 2025-12-24 05:23:58 UTC
+# 38 HLS Manifests
+# Raw: https://raw.githubusercontent.com/byte10101010/iptv_my/main/myplaylist.m3u
 # =====================================
