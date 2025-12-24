@@ -1,5 +1,10 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-# Auto-generated playlist
+# ================= News =================
+#EXTINF:-1 tvg-id="TV9Telugu" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu News LIVE
+https://www.youtube.com/watch?v=II_m28Bm-iM
+
+#EXTINF:-1 tvg-id="TV9TeluguBackup" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu (Channel Live Backup)
+https://www.youtube.com/@Tv9Telugu/live
 
 # ================= Entertainment =================
 #EXTINF:-1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png" group-title="Entertainment",SET HD
