@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install yt-dlp
-        run: pip install yt-dlp
+        run: pip install yt-dlp requests
       - name: Generate playlist
         run: python generate_playlist.py
       - name: Commit and push
