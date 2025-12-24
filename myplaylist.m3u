@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="TV9Telugu" tvg-name="TV9 Telugu" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu News LIVE
+https://www.youtube.com/watch?v=II_m28Bm-iM
+#EXTINF:-1 tvg-id="TV9TeluguBackup" tvg-name="TV9 Telugu" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kINV9J3l1Tq1kyefK7yNS0-IkKG3AONgiu6HmUc19JjMs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",TV9 Telugu (Channel Live Backup)
+https://www.youtube.com/@Tv9Telugu/live
 #EXTINF:-1 tvg-id="1000009246" tvg-name="" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png" group-title="Entertainment",SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1766415725~acl=/*~id=47594644234814954102176797860025~hmac=625d8d575723a33c7cc52ab562620d65523eb63854ff3062b09b0e825934f424
