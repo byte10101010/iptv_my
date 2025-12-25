@@ -3,7 +3,7 @@
 cd /d "D:\git_volume\iptv_my"
 
 :: Run your Python script to update the M3U8 file
-python your_script.py
+python generate_playlist.py
 
 :: Add the file to git
 git add .
