@@ -14,6 +14,103 @@
   },
   "all_channels": [
 	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+
+	{
+      "name": "Zee Telugu HD",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/QUQRmqwk7JVFjQG0tHVO66NmBalHkY8n_N6Qv0_4wLCCSUDko2odiAGFiviyIP_DKM-A6_KN=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=250844|User-Agent=RANAPK"
+    },
+	{
       "name": "ETV Telugu HD",
       "tvg_id": "",
       "tvg_name": "",
@@ -376,21 +473,59 @@
 
 	  	},
 	{
-      "name": "",
+      "name": "EPIC HD",
       "tvg_id": "",
       "tvg_name": "",
-      "logo": "",
-      "group": "News",
-      "url": ""
-	},
+      "logo": "https://yt3.ggpht.com/y6aZt4DyQ6CEOmMf4GAAenSeH0yBMaEXJH9He7Glh0c72dMOExh-BauTM0clfJDmhJitFYWbJA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Geo",
+      "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8"
+	}
+	,
+	{
+      "name": "National Geographic HD ENGLISH",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kKGaEKaafkVObI-xJQPOipJ-B-W2vdD8fuv4oNEW7d894=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Geo",
+      "url": "http://66.102.120.18:8000/play/a01f/index.m3u8"
+	}
+		,
+	{
+      "name": "Sony BBC EARTH ENGLISH",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/VDmgycWu3V624DFUT77sgEZtgj7HM6E7SNiPCXpP-J6TPXf6hF45zSeEAv9-InybuM2RQ-YHXw=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Geo",
+      "url": "http://66.102.120.18:8000/play/a01r/index.m3u8"
+	}
+	,
+	{
+      "name": "HISTORY TV18 HD TEL",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "http://b1gchlogos.xyz/wp-content/uploads/2023/08/History-TV18-HD.png",
+      "group": "Geo",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=381179|User-Agent=RANAPK"
+	}
+	,
 	{
       "name": "",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "",
-      "group": "News",
+      "group": "Geo",
       "url": ""
 	}
+	,
+	{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Geo",
+      "url": ""
+	}
+
 
 
 
