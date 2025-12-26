@@ -70,20 +70,20 @@
       "url": ""
     },
 	{
-      "name": "",
+      "name": "Colors 4k",
       "tvg_id": "",
       "tvg_name": "",
-      "logo": "",
+      "logo": "http://logo.opplextv.com/logo/4Klogo.png",
       "group": "Telugu_Entertainment",
-      "url": ""
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109947|User-Agent=RANAPK"
     },
 	{
-      "name": "",
+      "name": "Gemini TV HDR",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "",
       "group": "Telugu_Entertainment",
-      "url": ""
+      "url": "https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8"
     },
 	{
       "name": "STAR MAA HD",
@@ -483,21 +483,48 @@
 	}
 	,
 	{
-      "name": "National Geographic HD ENGLISH",
+      "name": "National Geographic HD Hindi",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kKGaEKaafkVObI-xJQPOipJ-B-W2vdD8fuv4oNEW7d894=s176-c-k-c0x00ffffff-no-rj-mo",
       "group": "Geo",
-      "url": "http://66.102.120.18:8000/play/a01f/index.m3u8"
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=206285|User-Agent=RANAPK"
 	}
-		,
+	,
 	{
-      "name": "Sony BBC EARTH ENGLISH",
+      "name": "NAT GEO WILD HINDI",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Geo",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=206286|User-Agent=RANAPK"
+	}
+	,
+	{
+      "name": "DISCOVERY HD HINDI",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/2560px-2019_Discovery_logo.svg.png",
+      "group": "Geo",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=206287|User-Agent=RANAPK"
+	}
+	,
+	{
+      "name": "ANIMAL PLANET 4K",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Geo",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109975|User-Agent=RANAPK"
+	}
+	,
+	{
+      "name": "Sony BBC EARTH ENGLISH 4K",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "https://yt3.ggpht.com/VDmgycWu3V624DFUT77sgEZtgj7HM6E7SNiPCXpP-J6TPXf6hF45zSeEAv9-InybuM2RQ-YHXw=s176-c-k-c0x00ffffff-no-rj-mo",
       "group": "Geo",
-      "url": "http://66.102.120.18:8000/play/a01r/index.m3u8"
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109978|User-Agent=RANAPK"
 	}
 	,
 	{
@@ -510,21 +537,21 @@
 	}
 	,
 	{
-      "name": "",
+      "name": "TRAVEL XP HIN",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "",
       "group": "Geo",
-      "url": ""
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=206279|User-Agent=RANAPK"
 	}
 	,
 	{
-      "name": "",
+      "name": "STAR SPORTS 2 TEL HD",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "",
-      "group": "Geo",
-      "url": ""
+      "group": "Sports",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109980|User-Agent=RANAP"
 	}
 
 
