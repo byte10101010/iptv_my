@@ -13,6 +13,62 @@
     }
   },
   "all_channels": [
+	{
+      "name": "ETV Telugu HD",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/b19azgQdCHhRWQopQg6crTXCyM6Z9fDktE2iC9Seol4T9IHF5OOYEu6DTbKMdiwf8C6tpVovwQ=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8"
+    },
+		{
+      "name": "ETV_PLUS",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/UPkvghI52rLZl4cukVJpKTAi1y0qk6yPkw2uR0pI4bdEtxWqnXXU_wawCY4iK69BZng2wuAmJjk=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8"
+    },
+		{
+      "name": "ETV_CINEMA",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/UZQ-r8HXRNjuNNfrh6txKpvqorHl4WJQV2LoXaZLh7HI_P27G64M7CbpAVEFTnCxYTWsT78bqck=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8"
+    },
+		{
+      "name": "ETV_ABHIRUCHI",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ohjpu0md3-6BSm-WFsdYN5C6Nc80wVMQbv0Qz7G7NGTWjQgbgQcl0hqkQOfrSrs9b2clrhOyEA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"
+    },
+		{
+      "name": "ETV_LIFE",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/CuDUEOsG7sLgMWjeAsgf-VZqpczO8XDKKfw1LYRYBTx5AnUiggB5x5o0q7aatFX8ZfLYhUhi=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8"
+    },
+		{
+      "name": "ETV_TS",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ITI7b925M1eAU3qwA6D-LVKjK6cExgmyfBu8KOURiBIxgZREpqkox2IUDSZR1f-2jcn4Gnl2=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
+    },
+		{
+      "name": "ETV_AP",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/VaQ2xMdQoDws4D6U9ekGeRNx88ah1QHKCXJYlaVzdEuxEeV_exnqc-O0SLjCTRncZMIxNSPQ=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Telugu_Entertainment",
+      "url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
+    },
     {
       "name": "TV9 Telugu News LIVE",
       "tvg_id": "TV9Telugu",
@@ -62,14 +118,6 @@
       "url": "https://www.youtube.com/watch?v=byG7EGw9NPs"
     },
     {
-      "name": "CNBC TV18 LIVE",
-      "tvg_id": "CNBC TV18 LIVE",
-      "tvg_name": "CNBC TV18 LIVE",
-      "logo": "https://yt3.ggpht.com/t1EmuG86KC1DEBn4NqpqK1iHld2rjW89d0FjClNMoUtFOSNLTSym1UMXhC1WFXJ_Zi-T-DVezA=s48-c-k-c0x00ffffff-no-rj",
-      "group": "Business_News",
-      "url": "https://www.youtube.com/watch?v=P857H4ej-MQ"
-	},
-    {
       "name": "Prime9 News LIVE",
       "tvg_id": "Prime9 News LIVE",
       "tvg_name": "",
@@ -100,6 +148,23 @@
       "logo": "https://yt3.ggpht.com/DXX5mzlhxpRsnf-dchOB5y5rWUAzH7QHSIH084-aNghQiw9Bl_CITt0_eVEcsVxwn_O7MPpzYQ=s48-c-k-c0x00ffffff-no-rj",
       "group": "Business_News",
       "url": "https://www.youtube.com/watch?v=ydiWklMUhcQ"
+	},
+	{
+      "name": "CNBC TV18 LIVE",
+      "tvg_id": "CNBC TV18 LIVE",
+      "tvg_name": "CNBC TV18 LIVE",
+      "logo": "https://yt3.ggpht.com/t1EmuG86KC1DEBn4NqpqK1iHld2rjW89d0FjClNMoUtFOSNLTSym1UMXhC1WFXJ_Zi-T-DVezA=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Business_News",
+      "url": "https://www.youtube.com/watch?v=P857H4ej-MQ"
+	},
+	{
+      "name": "CNBC-TV18 Prime LIVE",
+      "tvg_id": "CNBC-TV18 Prime LIVE",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/g_5akqiTIVNLnJ1YpU4-JKC2V4UC-Z0V5X2ghPte_aqwxn_s5OaTkSV9oShZ1-9SK49FGn9M6Q=s48-c-k-c0x00ffffff-no-rj",
+      "group": "Business_News",
+      "url": "https://www.youtube.com/watch?v=hZpvudz_oOw"
+
 	},
 	{
       "name": "T News Live HD - Telangana",
@@ -245,15 +310,6 @@
       "group": "News",
       "url": "https://www.youtube.com/watch?v=uoK1dFpMo98"
 	  	},
-	{
-      "name": "CNBC-TV18 Prime LIVE",
-      "tvg_id": "CNBC-TV18 Prime LIVE",
-      "tvg_name": "",
-      "logo": "https://yt3.ggpht.com/g_5akqiTIVNLnJ1YpU4-JKC2V4UC-Z0V5X2ghPte_aqwxn_s5OaTkSV9oShZ1-9SK49FGn9M6Q=s48-c-k-c0x00ffffff-no-rj",
-      "group": "Business_News",
-      "url": "https://www.youtube.com/watch?v=hZpvudz_oOw"
-
-	},
 	{
       "name": "India Today TV Live",
       "tvg_id": "India Today TV Live",
