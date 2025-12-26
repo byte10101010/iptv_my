@@ -70,14 +70,6 @@
       "url": ""
     },
 	{
-      "name": "Colors 4k",
-      "tvg_id": "",
-      "tvg_name": "",
-      "logo": "http://logo.opplextv.com/logo/4Klogo.png",
-      "group": "Telugu_Entertainment",
-      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109947|User-Agent=RANAPK"
-    },
-	{
       "name": "Gemini TV HDR",
       "tvg_id": "",
       "tvg_name": "",
@@ -86,12 +78,28 @@
       "url": "https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8"
     },
 	{
+      "name": "Gemini Movies",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=250846|User-Agent=RANAPK"
+    },
+	{
+      "name": "Gemini Music",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "Telugu_Entertainment",
+      "url": ""
+    },
+	{
       "name": "STAR MAA HD",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "http://b1gchlogos.xyz/wp-content/uploads/2023/08/Star-Maa.png",
       "group": "Telugu_Entertainment",
-      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=250843|User-Agent=RANAPK"
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=381117|User-Agent=RANAPK"
     },
 
 	{
@@ -473,6 +481,15 @@
       "url": "https://www.youtube.com/watch?v=TBlxk1kH9dM"
 
 	  	},
+		{
+      "name": "Colors 4k",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "http://logo.opplextv.com/logo/4Klogo.png",
+      "group": "Hind_Entertainment",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=109947|User-Agent=RANAPK"
+    },
+
 	{
       "name": "EPIC HD",
       "tvg_id": "",
