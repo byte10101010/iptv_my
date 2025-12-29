@@ -94,10 +94,18 @@
       "url": ""
     },
 	{
-      "name": "STAR MAA HD",
+      "name": "STAR MAA",
       "tvg_id": "",
       "tvg_name": "",
       "logo": "http://b1gchlogos.xyz/wp-content/uploads/2023/08/Star-Maa.png",
+      "group": "Telugu_Entertainment",
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=381103|User-Agent=RANAPK"
+    },
+	{
+      "name": "STAR MAA MOVIES HD",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "http://b1gchlogos.xyz/wp-content/uploads/2023/08/Star-Maa-Movies-HD.png",
       "group": "Telugu_Entertainment",
       "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=381117|User-Agent=RANAPK"
     },
@@ -108,7 +116,7 @@
       "tvg_name": "",
       "logo": "https://yt3.ggpht.com/QUQRmqwk7JVFjQG0tHVO66NmBalHkY8n_N6Qv0_4wLCCSUDko2odiAGFiviyIP_DKM-A6_KN=s176-c-k-c0x00ffffff-no-rj-mo",
       "group": "Telugu_Entertainment",
-      "url": ""
+      "url": "https://ranapk.online/OPPLEX/RANAPK5/play.php?id=250844|User-Agent=RANAPK"
     },
 		{
       "name": "ZEE CINEMALU HD",
@@ -272,6 +280,98 @@
       "url": "https://www.youtube.com/watch?v=hZpvudz_oOw"
 
 	},
+	{
+      "name": "ET NOW LIVE",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/uNszhFa92_t23EHKYhPxytuNokzFeRq9iilXrMYuQZIyJXTRRTcOlvHFs4tDfQbih-OBhK6OZQ=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "Business_News",
+      "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etnow/etnow_master.m3u8"
+
+	},
+		{
+      "name": "TIMES NOW",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/tbt86hlboNiJbdDEbSzJAPxcs8f_NGc9PjowG_nv932vS1TM_o1hKpQBQKlhpVDe-wg9NJFWsg=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "News",
+      "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3u8"
+
+	},
+		{
+      "name": "Times Now Navbharat",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ww29cixBbXhsOQVJOqbKZxgbrXcAmIrdcNV76W305TDatmZ6WiTkJDE-FDmMXLIkwRe9dT28Rg=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "News",
+      "url": "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/navbharat/navbharat_master.m3u8"
+
+	},
+		{
+      "name": "Times Now Navbharat YT",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "https://yt3.ggpht.com/ww29cixBbXhsOQVJOqbKZxgbrXcAmIrdcNV76W305TDatmZ6WiTkJDE-FDmMXLIkwRe9dT28Rg=s176-c-k-c0x00ffffff-no-rj-mo",
+      "group": "News",
+      "url": "https://www.youtube.com/watch?v=77qMaUtV030"
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+		{
+      "name": "",
+      "tvg_id": "",
+      "tvg_name": "",
+      "logo": "",
+      "group": "News",
+      "url": ""
+
+	},
+
+
 	{
       "name": "T News Live HD - Telangana",
       "tvg_id": "T News Live HD - Telangana",
