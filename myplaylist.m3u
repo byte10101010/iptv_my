@@ -73,8 +73,6 @@ https://cdn-1.pishow.tv/live/1037/master.m3u8
 https://cdn-1.pishow.tv/live/411/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="",6 TV Telugu (720p)
 https://cdn-1.pishow.tv/live/232/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/rLMxjcF0KpUjEgh2gcCswz0RAZrYJcZOTycaqQVacqwD1MdquheRyjqfi_18AnnKovbFRkUrPw=s48-c-k-c0x00ffffff-no-rj" group-title="News",CVR News Telugu LIVE
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768128393/ei/KStjaZ7qJcPa3LUP1MSYyQU/ip/106.200.27.187/id/i2dM_yKZeHk.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-ci5gup-8b5z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_pD8PAbL2rxP0BKhrRtRbmIV2Dr8UQ5KlpkKIXX0TBc9khsKu47Iu7LBQJtPf1pcK6mxfrg8XKY/spc/q5xjPKDn8sodx-_jWN2S/vprv/1/playlist_type/DVR/initcwndbps/2440000/met/1768106794,/mh/by/mm/44/mn/sn-ci5gup-8b5z/ms/lva/mv/m/mvi/1/pl/22/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565115,51565681,51580968/mt/1768106422/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAMv0eu3u4YLCmXoZWKSeeYbKNjuSSENP79X5sH4Cc-qoAiEApcLTVnYOoT_YqL-BruPpQkhvk3v_BHell3F7erH9zOE%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAICJnIa8VSbA09QnHWlcOcrmjPP_M4fAaIBeT6jS1htZAiEAhgm2ysgh6iGnev13uTAWk7e-bWMUCN5fIklOgG2BbDw%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/zAE4omB2UohakP6VEq_K0KrUcET2fiN3IyIpMUXLRyxMqU_ZFSN08IXN8cbPGp-vfI9lWWbI=s48-c-k-c0x00ffffff-no-rj" group-title="News",ZEE Telugu News Live
 https://d116gfrn8orazi.cloudfront.net/index_3.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjgwNDA1ODJ9.j7-khtA7O4yzl4IDBcoTk_MIOYmtPBrbPSzwExlIKws
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_kxsY7lAdRk1ZHKtVK7BtAZuCV_V8tVSVu7mynBS4Ix-BU=s48-c-k-c0x00ffffff-no-rj" group-title="News",Bhakthi TV Live
@@ -119,8 +117,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 https://9xjio.wiseplayout.com/9XM/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",9X Jhakaas
 https://9xjio.wiseplayout.com/9X_Jhakaas/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",9x tashan
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xtashan/default/9Xtashan.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",9x Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/3ba0d973-5f45-4709-9942-82b2cd739115/3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Music",Balle Balle (720p)
